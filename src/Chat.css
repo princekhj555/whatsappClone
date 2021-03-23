@@ -31,7 +31,7 @@
     background-repeat: repeat;
     background-position: center;
     padding: 30px;
-    overflow: scroll;
+    overflow:auto;
 }
 .chat_name{
     position: absolute;

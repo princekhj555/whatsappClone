@@ -1,14 +1,18 @@
 .app{
     display: grid;
     place-items: center;
-    background-color: #dadbd3;
+    background: #ff9966;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     height:100vh;
 }
 .app_body{
     display: flex;
     height: 90vh;
     width: 90vw;
-    margin-top: -50px;
+    margin-top: auto;
+    margin-bottom: auto;
     background-color: #ededed;
     box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.2);
 }

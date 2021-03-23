@@ -48,6 +48,6 @@
 }
 .sidebar_chats{
     flex: 1;
-    overflow: scroll;
+    overflow: auto;
     background-color: white;
 }
